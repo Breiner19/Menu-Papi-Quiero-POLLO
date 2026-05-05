@@ -8,14 +8,14 @@
   <style>
     /* ===== VARIABLES – EDITA AQUÍ COLORES Y TIPOGRAFÍA ===== */
     :root {
-      --color-primary:   #d62828;   /* Rojo principal */
-      --color-secondary: #f7b731;   /* Amarillo/dorado */
-      --color-accent:    #ff6b35;   /* Naranja acento */
-      --color-bg:        #fff8f0;   /* Fondo cálido */
+      --color-primary:   #000000;   /* Negro para encabezado */
+      --color-secondary: #ffcc00;   /* Amarillo/dorado */
+      --color-accent:    #ff3b3b;   /* Naranja acento */
+      --color-bg:        #fffb00;   /* Fondo pastel amarillo */
       --color-card:      #ffffff;
-      --color-text:      #1a1a1a;
-      --color-muted:     #6b6b6b;
-      --color-price:     #d62828;
+      --color-text:      #000000;
+      --color-muted:     #555;
+      --color-price:     #ff3b3b;
       --font-title:      'Fredoka One', cursive;
       --font-body:       'Nunito', sans-serif;
       --radius:          16px;
@@ -57,6 +57,12 @@
       display: block;
       margin-bottom: 8px;
       filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+    }
+    .logo-pollo {
+      width: 130px;
+      display: block;
+      margin: 0 auto 10px;
+      filter: drop-shadow(0 6px 10px rgba(0,0,0,0.5));
     }
     header h1 {
       font-family: var(--font-title);
@@ -242,7 +248,7 @@
 <body>
 
 <header>
-  <span class="header-emoji">🍗</span>
+<img src="pollo.png" class="logo-pollo">
   <h1>Papi Quiero Pollo</h1>
   <p class="subtitle">Asadero · Platos a la Carta</p>
   <p class="subtitle" style="font-size:13px; margin-top:4px; opacity:0.8;">Pollo Asado y Broaster</p>
